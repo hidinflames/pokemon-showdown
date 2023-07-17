@@ -667,7 +667,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	magnezone: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "PU",
+		natDexTier: "RU",
 	},
 	farfetchd: {
 		isNonstandard: "Past",
@@ -5608,7 +5608,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	orthworm: {
 		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "PU",
+		natDexTier: "RU",
 	},
 	tandemaus: {
 		tier: "LC",
@@ -5656,7 +5656,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	pawmot: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "PU",
+		natDexTier: "RU",
 	},
 	wattrel: {
 		tier: "LC",
