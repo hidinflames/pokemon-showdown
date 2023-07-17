@@ -1,7 +1,7 @@
 export const Items: {[itemid: string]: ItemData} = {
 	abilityshield: {
 		name: "Ability Shield",
-		spritenum: 0, // TODO
+		spritenum: 746,
 		ignoreKlutz: true,
 		// Neutralizing Gas protection implemented in Pokemon.ignoringAbility() within sim/pokemon.ts
 		// and in Neutralizing Gas itself within data/abilities.ts
@@ -63,7 +63,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	adamantcrystal: {
 		name: "Adamant Crystal",
-		spritenum: 4, // TODO
+		spritenum: 741,
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.num === 483 && (move.type === 'Steel' || move.type === 'Dragon')) {
@@ -80,7 +80,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Dialga-Origin"],
 		num: 1777,
 		gen: 8,
-		isNonstandard: "Unobtainable",
 	},
 	adamantorb: {
 		name: "Adamant Orb",
@@ -97,7 +96,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Dialga"],
 		num: 135,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	adrenalineorb: {
 		name: "Adrenaline Orb",
@@ -347,7 +345,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	auspiciousarmor: {
 		name: "Auspicious Armor",
-		spritenum: 0, // TODO
+		spritenum: 753,
 		num: 2344,
 		gen: 9,
 	},
@@ -597,7 +595,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	boosterenergy: {
 		name: "Booster Energy",
-		spritenum: 0, // TODO
+		spritenum: 745,
 		onUpdate(pokemon) {
 			if (pokemon.transformed) return;
 			if (this.queue.peek(true)?.choice === 'runSwitch') return;
@@ -1002,7 +1000,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	clearamulet: {
 		name: "Clear Amulet",
-		spritenum: 0, // TODO
+		spritenum: 747,
 		onTryBoost(boost, target, source, effect) {
 			if (source && target === source) return;
 			let showMsg = false;
@@ -1106,7 +1104,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 10,
 		},
-		spritenum: 0, // TODO
+		spritenum: 750,
 		onModifySecondaries(secondaries) {
 			this.debug('Covert Cloak prevent secondary');
 			return secondaries.filter(effect => !!(effect.self || effect.dustproof));
@@ -1335,7 +1333,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Dragon",
 		num: 311,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	dragonfang: {
 		name: "Dragon Fang",
@@ -1423,7 +1420,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Dark",
 		num: 312,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	dreamball: {
 		name: "Dream Ball",
@@ -1490,7 +1486,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ground",
 		num: 305,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	eeviumz: {
 		name: "Eevium Z",
@@ -1876,7 +1871,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fighting",
 		num: 303,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	flameorb: {
 		name: "Flame Orb",
@@ -1912,7 +1906,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fire",
 		num: 298,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	floatstone: {
 		name: "Float Stone",
@@ -2325,7 +2318,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	griseouscore: {
 		name: "Griseous Core",
-		spritenum: 180, // TODO
+		spritenum: 743,
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.num === 487 && (move.type === 'Ghost' || move.type === 'Dragon')) {
@@ -2342,7 +2335,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Giratina-Origin"],
 		num: 1779,
 		gen: 8,
-		isNonstandard: "Unobtainable",
 	},
 	griseousorb: {
 		name: "Griseous Orb",
@@ -2359,7 +2351,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Giratina"],
 		num: 112,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	groundgem: {
 		name: "Ground Gem",
@@ -2623,7 +2614,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ice",
 		num: 302,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	iciumz: {
 		name: "Icium Z",
@@ -2676,7 +2666,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Bug",
 		num: 308,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	ironball: {
 		name: "Iron Ball",
@@ -2715,7 +2704,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Steel",
 		num: 313,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	jabocaberry: {
 		name: "Jaboca Berry",
@@ -3093,7 +3081,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	loadeddice: {
 		name: "Loaded Dice",
-		spritenum: 0, // TODO
+		spritenum: 751,
 		// partially implemented in sim/battle-actions.ts:BattleActions#hitStepMoveHitLoop
 		onModifyMove(move) {
 			if (move.multiaccuracy) {
@@ -3225,7 +3213,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	lustrousglobe: {
 		name: "Lustrous Globe",
-		spritenum: 265, // TODO
+		spritenum: 742,
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (user.baseSpecies.num === 484 && (move.type === 'Water' || move.type === 'Dragon')) {
@@ -3242,7 +3230,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Palkia-Origin"],
 		num: 1778,
 		gen: 8,
-		isNonstandard: "Unobtainable",
 	},
 	lustrousorb: {
 		name: "Lustrous Orb",
@@ -3259,7 +3246,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Palkia"],
 		num: 136,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	luxuryball: {
 		name: "Luxury Ball",
@@ -3370,7 +3356,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	maliciousarmor: {
 		name: "Malicious Armor",
-		spritenum: 0, // TODO
+		spritenum: 744,
 		num: 1861,
 		gen: 9,
 	},
@@ -3459,7 +3445,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Grass",
 		num: 301,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	medichamite: {
 		name: "Medichamite",
@@ -3704,7 +3689,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Psychic",
 		num: 307,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	miracleseed: {
 		name: "Miracle Seed",
@@ -3726,7 +3710,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 10,
 		},
-		spritenum: 0, // TODO
+		spritenum: 748,
 		onFoeAfterBoost(boost, target, source, effect) {
 			if (effect?.name === 'Opportunist' || effect?.name === 'Mirror Herb') return;
 			const boostPlus: SparseBoostsTable = {};
@@ -4184,7 +4168,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fairy",
 		num: 644,
 		gen: 6,
-		isNonstandard: "Unobtainable",
 	},
 	plumefossil: {
 		name: "Plume Fossil",
@@ -4482,7 +4465,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	punchingglove: {
 		name: "Punching Glove",
-		spritenum: 0, // TODO
+		spritenum: 749,
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['punch']) {
@@ -4922,7 +4905,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Zamazenta-Crowned"],
 		num: 1104,
 		gen: 8,
-		isNonstandard: "Unobtainable",
 	},
 	rustedsword: {
 		name: "Rusted Sword",
@@ -4936,7 +4918,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Zacian-Crowned"],
 		num: 1103,
 		gen: 8,
-		isNonstandard: "Unobtainable",
 	},
 	sablenite: {
 		name: "Sablenite",
@@ -5275,7 +5256,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Flying",
 		num: 306,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	slowbronite: {
 		name: "Slowbronite",
@@ -5421,7 +5401,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Water",
 		num: 299,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	spookyplate: {
 		name: "Spooky Plate",
@@ -5442,7 +5421,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ghost",
 		num: 310,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	sportball: {
 		name: "Sport Ball",
@@ -5607,11 +5585,10 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Rock",
 		num: 309,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	strangeball: {
 		name: "Strange Ball",
-		spritenum: 303, // TODO
+		spritenum: 308,
 		num: 1785,
 		gen: 8,
 		isPokeball: true,
@@ -5808,7 +5785,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Poison",
 		num: 304,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	tr00: {
 		name: "TR00",
@@ -7192,7 +7168,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Electric",
 		num: 300,
 		gen: 4,
-		isNonstandard: "Unobtainable",
 	},
 	zoomlens: {
 		name: "Zoom Lens",

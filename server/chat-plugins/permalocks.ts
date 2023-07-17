@@ -240,7 +240,7 @@ export const Nominations = new class {
 			buf += `<details class="readmore"><summary><strong>Listed IPs</strong></summary>`;
 			for (const [i, ip] of nom.ips.entries()) {
 				const ipData = await getIPData(ip);
-				buf += `- <a href="https://whatismyipaddress/ip/${ip}:">${ip}</a>`;
+				buf += `- <a href="https://whatismyipaddress.com/ip/${ip}">${ip}</a>`;
 				if (ipData) {
 					buf += `(ISP: ${ipData.isp}, loc: ${ipData.city}, ${ipData.regionName} in ${ipData.country})`;
 				}
@@ -269,7 +269,7 @@ export const Nominations = new class {
 			buf += `</details>`;
 		}
 		buf += `<p><strong>Staff notes:</strong></p>`;
-		buf += `<p><div class="infobox">${Chat.formatText(nom.info)}</div></p>`;
+		buf += `<p><div class="infobox">${Chat.formatText(nom.info).replace(/\n/ig, '<br />')}</div></p>`;
 		buf += `<details class="readmore"><summary><strong>Act on primary:</strong></summary>`;
 		buf += `<form data-submitsend="/perma actmain ${nom.primaryID},{standing},{note}">`;
 		buf += `Standing: ${this.standingDropdown('standing')}`;
@@ -394,14 +394,15 @@ export const commands: Chat.ChatCommands = {
 			if (!threadNum) {
 				throw new Chat.ErrorMessage("The link to the perma has not been set - the post could not be made.");
 			}
-			let postBuf = `[b]${primary}[/b] was added to ${standings[standing]} by ${user.name} (${postReason}). `;
+			let postBuf = `[b][url="https://${Config.routes.root}/users/${primary}"]${primary}[/url][/b]`;
+			postBuf += ` was added to ${standings[standing]} by ${user.name} (${postReason}). `;
 			postBuf += `Nominated by ${nom.by}.\n`;
 			postBuf += `${nom.alts.length ? `[spoiler=Alts]${nom.alts.join(', ')}[/spoiler]` : ""}\n`;
 			if (nom.ips.length) {
-				postBuf += `[spoiler=ips]`;
+				postBuf += `[spoiler=IPs]`;
 				for (const ip of nom.ips) {
 					const ipData = await getIPData(ip);
-					postBuf += `- [url=https://whatismyipaddress/ip/${ip}]${ip}[/url]`;
+					postBuf += `- [url=https://whatismyipaddress.com/ip/${ip}]${ip}[/url]`;
 					if (ipData) {
 						postBuf += ` (ISP: ${ipData.isp}, loc: ${ipData.city}, ${ipData.regionName} in ${ipData.country})`;
 					}
@@ -409,6 +410,16 @@ export const commands: Chat.ChatCommands = {
 				}
 				postBuf += `[/spoiler]`;
 			}
+
+			const modlog = await Nominations.fetchModlog(nom.primaryID);
+			if (modlog?.results.length) {
+				let rawHTML = Nominations.displayModlog(modlog.results);
+				rawHTML = rawHTML.replace(/<br \/>/g, '\n');
+				rawHTML = Utils.stripHTML(rawHTML);
+				rawHTML = rawHTML.replace(/&#x2f;/g, '/');
+				postBuf += `\n[spoiler=Modlog]${rawHTML}[/spoiler]`;
+			}
+
 			const res = await Smogon.post(
 				threadNum,
 				postBuf,
@@ -416,7 +427,7 @@ export const commands: Chat.ChatCommands = {
 			if (!res || res.error) {
 				return this.popupReply(`Error making post: ${res?.error}`);
 			}
-			const url = `https://smogon.com/forums/threads/${threadNum}/#post-${res.post.post_id}`;
+			const url = `https://smogon.com/forums/threads/${threadNum}/post-${res.post.post_id}`;
 			const result = await LoginServer.request('setstanding', {
 				user: primary,
 				standing,
