@@ -3326,16 +3326,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "PU",
 	},
 	basculinwhitestriped: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
+		tier: "NFE",
 	},
 	basculegion: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
+		tier: "UU",
+		natDexTier: "UU",
 	},
 	basculegionf: {
-		isNonstandard: "Unobtainable",
-		tier: "Unreleased",
+		tier: "UU",
+		natDexTier: "UU",
 	},
 	sandile: {
 		tier: "LC",
@@ -5702,7 +5701,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sandyshocks: {
 		tier: "OU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "RU",
 	},
 	screamtail: {
 		tier: "UU",
