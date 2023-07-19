@@ -2983,7 +2983,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	cresselia: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "NUBL",
 	},
 	phione: {
 		isNonstandard: "Past",
@@ -3801,7 +3801,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	thundurus: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "NUBL",
 	},
 	thundurustherian: {
 		tier: "UU",
@@ -5336,7 +5336,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	regidrago: {
 		tier: "UU",
-		natDexTier: "NU",
+		natDexTier: "NUBL",
 	},
 	glastrier: {
 		tier: "UU",
