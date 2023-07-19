@@ -1977,7 +1977,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	breloom: {
 		tier: "OU",
 		doublesTier: "DUU",
-		natDexTier: "RU",
+		natDexTier: "NU",
 	},
 	slakoth: {
 		tier: "LC",
@@ -5336,7 +5336,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	regidrago: {
 		tier: "UU",
-		natDexTier: "RU",
+		natDexTier: "NU",
 	},
 	glastrier: {
 		tier: "UU",
