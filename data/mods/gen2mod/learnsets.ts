@@ -49,6 +49,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			growth: ["2L32", "1L34"],
 			headbutt: ["2M"],
 			hiddenpower: ["2M"],
+			leafstorm: ["2L53"],
 			leechseed: ["2L7", "1L7"],
 			lightscreen: ["2E"],
 			megadrain: ["1M"],
