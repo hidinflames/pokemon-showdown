@@ -3,6 +3,7 @@
  */
 
 export const Scripts: ModdedBattleScriptsData = {
+	inherit: 'gen2',
 	gen: 2,
 	pokemon: {
 		getStat(statName, unboosted, unmodified, fastReturn) {
