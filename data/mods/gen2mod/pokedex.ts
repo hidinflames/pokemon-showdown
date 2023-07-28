@@ -40,6 +40,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		prevo: "Ivysaur",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
+		gen: 2,
 	},
 	charmander: {
 		inherit: true,
@@ -82,6 +83,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		prevo: "Charmeleon",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
+		gen: 2,
 	},
 	squirtle: {
 		inherit: true,
@@ -124,6 +126,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		prevo: "Wartortle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Water 1"],
+		gen: 2,
 	},
 	caterpie: {
 		inherit: true,
