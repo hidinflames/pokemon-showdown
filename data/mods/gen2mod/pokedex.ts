@@ -1,4 +1,4 @@
-export const Pokedex: {[speciesid: string]: SpeciesData} = {
+export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	venusaur: {
 		num: 3,
 		name: "Venusaur",
