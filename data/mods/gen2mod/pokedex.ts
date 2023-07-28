@@ -1,4 +1,4 @@
-export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	bulbasaur: {
 		inherit: true,
 		num: 1,
@@ -32,8 +32,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		num: 3,
 		name: "Venusaur",
 		types: ["Grass", "Poison"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 80, atk: 92, def: 88, spa: 110, spd: 110, spe: 80},
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 80, atk: 92, def: 88, spa: 110, spd: 110, spe: 80 },
 		heightm: 2,
 		weightkg: 100,
 		color: "Green",
@@ -74,14 +74,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		num: 6,
 		name: "Charizard",
 		types: ["Fire", "Flying"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 78, atk: 100, def: 80, spa: 120, spd: 85, spe: 100},
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 78, atk: 100, def: 80, spa: 120, spd: 85, spe: 100 },
 		heightm: 1.7,
 		weightkg: 90.5,
 		color: "Red",
 		prevo: "Charmeleon",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
+		abilities: undefined
 	},
 	squirtle: {
 		inherit: true,
@@ -116,14 +117,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		num: 9,
 		name: "Blastoise",
 		types: ["Water", "Steel"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 79, atk: 93, def: 110, spa: 100, spd: 110, spe: 78},
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 79, atk: 93, def: 110, spa: 100, spd: 110, spe: 78 },
 		heightm: 1.6,
 		weightkg: 85.5,
 		color: "Blue",
 		prevo: "Wartortle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Water 1"],
+		abilities: undefined
 	},
 	caterpie: {
 		inherit: true,
