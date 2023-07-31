@@ -1862,7 +1862,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	obstagoon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	wurmple: {
 		isNonstandard: "Past",
