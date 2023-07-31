@@ -2249,7 +2249,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	altariamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	zangoose: {
 		tier: "PU",
@@ -2983,7 +2983,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	cresselia: {
 		tier: "UU",
-		natDexTier: "NUBL",
+		natDexTier: "RUBL",
 	},
 	phione: {
 		isNonstandard: "Past",
