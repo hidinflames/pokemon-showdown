@@ -2462,7 +2462,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const fusion = this.dex.species.get(set.name);
-			let problems = this.dex.formats.get('Obtainable Misc').onChangeSet?.call(this, set, this.format) || null;
 			if (Array.isArray(problems) && problems.length) return problems;
 			const abilityPool = new Set<string>(Object.values(species.abilities));
 			if (fusion.exists) {
@@ -2505,15 +2504,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 				newSpecies.baseStats[stat] = this.clampIntRange(newSpecies.baseStats[stat] + addition, 1, 255);
 				newSpecies.bst += newSpecies.baseStats[stat];
 			}
-			return newSpecies;
-					// @ts-ignore
-					set.sp = species;
-					// @ts-ignore
-					set.fusionSpecies = fusionSpecies;
-					const problems = this.validateSet(Set, Teams);
-					set.name = fusionSpecies.name;
-					set.species = species.name;
-					return problems;
 		},
 	},
 };
