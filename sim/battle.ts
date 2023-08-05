@@ -109,6 +109,9 @@ type Part = string | number | boolean | Pokemon | Side | Effect | Move | null | 
 export type RequestState = 'teampreview' | 'move' | 'switch' | '';
 
 export class Battle {
+	validateSet(set: any, teamHas: any): any {
+		throw new Error("Method not implemented.");
+	}
 	readonly id: ID;
 	readonly debugMode: boolean;
 	readonly forceRandomChance: boolean | null;
