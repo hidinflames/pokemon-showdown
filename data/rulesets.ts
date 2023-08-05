@@ -2462,6 +2462,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const fusion = this.dex.species.get(set.name);
+			let problems = this.dex.formats.get('Obtainable Misc').onChangeSet?.call(this, set, this.format) || null;
 			const abilityPool = new Set<string>(Object.values(species.abilities));
 			if (fusion.exists) {
 				for (const ability of Object.values(fusion.abilities)) {
