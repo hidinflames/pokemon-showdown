@@ -2462,7 +2462,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const fusion = this.dex.species.get(set.name);
-			if (Array.isArray(problems) && problems.length) return problems;
 			const abilityPool = new Set<string>(Object.values(species.abilities));
 			if (fusion.exists) {
 				for (const ability of Object.values(fusion.abilities)) {
