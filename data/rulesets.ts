@@ -2503,6 +2503,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 				newSpecies.baseStats[stat] = this.clampIntRange(newSpecies.baseStats[stat] + addition, 1, 255);
 				newSpecies.bst += newSpecies.baseStats[stat];
 			}
+			return newSpecies;
 		},
 	},
 };
