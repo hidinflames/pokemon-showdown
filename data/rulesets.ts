@@ -2456,7 +2456,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 		effectType: 'Rule',
 		name: "Frantic Fusions Mod",
 		desc: `Pok&eacute;mon nicknamed after another Pok&eacute;mon get their stats buffed by 1/4 of that Pok&eacute;mon's stats, barring HP, and access to their abilities.`,
-		ruleset: ["!Nickname Clause"],
 		onBegin() {
 			this.add('rule', 'Frantic Fusions Mod: Pok\u00e9mon nicknamed after another Pok\u00e9mon get buffed stats and more abilities.');
 		},
