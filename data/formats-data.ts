@@ -3754,7 +3754,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	durant: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "NUBL",
 	},
 	deino: {
 		tier: "LC",
