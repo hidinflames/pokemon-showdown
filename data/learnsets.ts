@@ -84110,6 +84110,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			cosmicpower: ["9E"],
 			defensecurl: ["9L1"],
 			dig: ["9M", "9L29"],
+			electroball: ["9M"],
 			endure: ["9M"],
 			facade: ["9M"],
 			fling: ["9M"],
