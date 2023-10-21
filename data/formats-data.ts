@@ -2359,7 +2359,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	banettemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "UU",
 	},
 	duskull: {
 		isNonstandard: "Past",
