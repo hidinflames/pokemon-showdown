@@ -1415,7 +1415,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	azumarill: {
 		tier: "OU",
 		doublesTier: "DUU",
-		natDexTier: "NUBL",
+		natDexTier: "RU",
 	},
 	bonsly: {
 		tier: "LC",
