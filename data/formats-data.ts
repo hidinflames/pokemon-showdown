@@ -2287,7 +2287,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	crawdaunt: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	baltoy: {
 		isNonstandard: "Past",
@@ -2939,7 +2939,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	azelf: {
 		tier: "UU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	dialga: {
 		tier: "Uber",
@@ -2983,7 +2983,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	cresselia: {
 		tier: "UU",
-		natDexTier: "RUBL",
+		natDexTier: "RU",
 	},
 	phione: {
 		isNonstandard: "Past",
@@ -3319,11 +3319,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	basculegion: {
 		tier: "UU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	basculegionf: {
 		tier: "UU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	sandile: {
 		tier: "LC",
@@ -4777,7 +4777,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	buzzwole: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	pheromosa: {
 		isNonstandard: "Past",
