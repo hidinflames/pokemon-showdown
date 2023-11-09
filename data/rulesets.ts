@@ -8,6 +8,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
+	/* eslint-disable eol-last */
 
 	standard: {
 		effectType: 'ValidatorRule',
