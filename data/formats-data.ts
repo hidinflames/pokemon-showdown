@@ -5205,7 +5205,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	indeedee: {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "NU",
 	},
 	indeedeef: {
 		tier: "PU",
