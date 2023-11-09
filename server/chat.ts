@@ -504,9 +504,6 @@ export class PageContext extends MessageContext {
  * - console command (PM to `~`): `context.pmTarget` and `context.room` will both be `null`
  */
 export class CommandContext extends MessageContext {
-	validateSet(set: any, Teams: Teams) {
-		throw new Error('Method not implemented.');
-	}
 	message: string;
 	pmTarget: User | null;
 	room: Room | null;
