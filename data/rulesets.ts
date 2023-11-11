@@ -1120,18 +1120,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 			}
 		},
 	},
-	nationaldexnfe: {
-		effectType: 'ValidatorRule',
-		name: 'National Dex NFE',
-		desc: "Bans Pok&eacute;mon that are fully evolved or can't evolve",
-		ruleset: ['Standard NatDex'],
-		onValidateSet(set) {
-			const species = this.dex.species.get(set.species);
-			if (!species.nfe) {
-				return [set.species + " cannot evolve."];
-			}
-		},
-	},
 	hppercentagemod: {
 		effectType: 'Rule',
 		name: 'HP Percentage Mod',
