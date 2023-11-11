@@ -1736,7 +1736,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	entei: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	suicune: {
 		isNonstandard: "Past",
@@ -1961,7 +1961,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gallade: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	gallademega: {
 		isNonstandard: "Past",
@@ -4689,7 +4689,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mimikyu: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	mimikyutotem: {
 		isNonstandard: "Past",
