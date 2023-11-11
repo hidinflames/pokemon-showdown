@@ -1615,7 +1615,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	ursalunabloodmoon: {
 		tier: "Uber",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	slugma: {
 		isNonstandard: "Past",
