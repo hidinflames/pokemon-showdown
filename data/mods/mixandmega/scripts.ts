@@ -264,6 +264,8 @@ export const Scripts: ModdedBattleScriptsData = {
 		case 'runSwitch':
 			this.actions.runSwitch(action.pokemon);
 			break;
+		case 'megaEvo':
+			if (!action.pokemon.transformed) return false;
 		case 'runPrimal':
 			if (!action.pokemon.transformed) {
 				this.singleEvent('Primal', action.pokemon.getItem(), action.pokemon.itemState, action.pokemon);
