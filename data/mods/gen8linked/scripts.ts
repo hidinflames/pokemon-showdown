@@ -441,10 +441,11 @@ export const Scripts: ModdedBattleScriptsData = {
 
 					runUnnerve: 100,
 					runSwitch: 101,
-					runPrimal: 102,
-					switch: 103,
-					megaEvo: 104,
-					runDynamax: 105,
+					runMega: 102,
+					runPrimal: 103,
+					switch: 104,
+					megaEvo: 105,
+					runDynamax: 106,
 
 					shift: 200,
 					// default is 200 (for moves)
