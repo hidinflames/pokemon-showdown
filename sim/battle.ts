@@ -2646,6 +2646,7 @@ export class Battle {
 		case 'megaEvo':
 			if (!action.pokemon.transformed)
 				this.actions.canMegaEvo(action.pokemon);
+			return false;
 		case 'runPrimal':
 			if (!action.pokemon.transformed) {
 				this.singleEvent('Primal', action.pokemon.getItem(), action.pokemon.itemState, action.pokemon);
