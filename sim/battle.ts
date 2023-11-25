@@ -2643,9 +2643,9 @@ export class Battle {
 		case 'runSwitch':
 			this.actions.runSwitch(action.pokemon);
 			break;
-		case 'runMega':
+		case 'megaEvo':
 			if (!action.pokemon.transformed) {
-				this.singleEvent('Mega', action.pokemon.getItem(), action.pokemon.baseSpecies, action.pokemon);
+				this.singleEvent('Mega', action.pokemon.baseSpecies, action.pokemon.baseSpecies, action.pokemon);
 			}
 		case 'runPrimal':
 			if (!action.pokemon.transformed) {
