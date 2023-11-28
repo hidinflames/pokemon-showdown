@@ -92,7 +92,7 @@ export interface FieldAction {
 /** A generic action done by a single pokemon */
 export interface PokemonAction {
 	/** action type */
-	choice: 'megaEvo' | 'shift' | 'runMegaEvo' | 'runPrimal' | 'runSwitch' | 'event' | 'runUnnerve' | 'runDynamax' | 'terastallize';
+	choice: 'megaEvo' | 'shift' | 'runPrimal' | 'runSwitch' | 'event' | 'runUnnerve' | 'runDynamax' | 'terastallize';
 	/** priority of the action (lower first) */
 	priority: number;
 	/** speed of pokemon doing action (higher first if priority tie) */
@@ -208,12 +208,6 @@ export class BattleQueue {
 				if (action.mega && !action.pokemon.isSkyDropped()) {
 					actions.unshift(...this.resolveAction({
 						choice: 'megaEvo',
-						pokemon: action.pokemon,
-					}));
-				}
-				if (action.mega && !action.pokemon.isSkyDropped()) {
-					actions.unshift(...this.resolveAction({
-						choice: 'runMegaEvo',
 						pokemon: action.pokemon,
 					}));
 				}
