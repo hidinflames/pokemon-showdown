@@ -55,8 +55,6 @@ if (isNaN(nodeVersion) || nodeVersion < 16) {
 }
 
 import {FS, Repl} from '../lib';
-import 'source-map-support/register';
-
 /*********************************************************
  * Set up most of our globals
  * This is in a function because swc runs `import` before any code,
