@@ -265,7 +265,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	raichualola: {
 		tier: "NU",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	sandshrew: {
 		isNonstandard: "Past",
