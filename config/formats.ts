@@ -2081,21 +2081,6 @@ export const Formats: FormatList = [
 		ruleset: ['[Gen 9] National Dex UU'],
 		banlist: ['ND UU', 'ND RUBL', 'Heat Rock'],
 	},
-	{
-		name: "[Gen 9] National Dex NU",
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['[Gen 9] National Dex RU'],
-		banlist: [ 'ND RU', 'Thundurus', 'Sharpedo-Mega','Conkeldurr','Staraptor','Manectric-Mega','Scolipede','Durant','Primarina','Nidoking','Arctozolt'],
-	},
-	{
-		name: "[Gen 9] National Dex PU",
-
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['[Gen 9] National Dex RU'],
-		banlist: [ 'ND RU', 'Thundurus', 'Sharpedo-Mega','Conkeldurr','Staraptor','Manectric-Mega','Scolipede','Durant','Primarina','Nidoking','Arctozolt','Absol-Mega','Bronzong','Chandelure','Chesnaught','Cyclizar','Diggersby','Donphan','Empoleon','Feraligatr','Flygon','Froslass','Gigalith','Golisopod','Houndoom-Mega','Houndstone','Iron Jugulis','Iron Thorns','Krookodile','Lycanroc','Milotic','Ninetales','Orthworm','Pidgeot-Mega','Porygon2','Raikou','Registeel','Rhyperior','Seismitoad','Sharpedo','Shaymin','Shuckle','Slowbro-Galar','Sylveon','Tangrowth','Tinkaton','Torkoal','Tornadus','Toxtricity','Lokix','Nidoqueen','Obstagoon','Oricorio-Pom-Pom','Scream Tail','Stakataka','Suicune','Venomoth','Damp Rock']
-	},
 	{		
 		name: "[Gen 9] National Dex Monotype",
 		threads: [
@@ -2180,99 +2165,6 @@ export const Formats: FormatList = [
 				}
 			}
 		},
-	},
-	{		
-			name: "[Gen 9] National Dex STABmons",
-		
-			mod: 'gen9',
-			searchShow: false,
-			ruleset: ['Standard NatDex', 'STABmons Move Legality','OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod','Sleep Moves Clause','Terastal Clause'],
-			banlist: [
-				'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
-				'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail','Basculegion', 'Basculegion-F', 'Cloyster','Dragapult', 'Dragonite', 'Enamorus-Base', 'Iron Bundle', 'Kartana', 'Komala','Kyurem','Tapu Koko','Tapu Lele','Zoroark-Hisui'
-			],
-			unbanlist: ['Kingambit','Palafin','Roaring Moon','Shedinja','Ogerpon-Hearthflame'
-	
-			],
-			restricted: [
-				'Acupressure', 'Astral Barrage', 'Belly Drum', 'Dire Claw', 'Double Iron Bash', 'Extreme Speed', 'Fillet Away', 'Fishious Rend', 'Geomancy', 'Gigaton Hammer', 'Last Respects',
-				'No Retreat', 'Revival Blessing', 'Shell Smash', 'Shift Gear', 'Thousand Arrows', 'V-create', 'Victory Dance', 'Wicked Blow',
-			],
-		},
-		{	
-			name: "[Gen 9] National Dex Almost Any Ability",
-	
-			mod: 'gen9',
-			searchShow: false,
-			ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause','!Obtainable Abilities', 'Ability Clause = 2', 'Sleep Moves Clause', 'Terastal Clause'],
-			banlist: [
-				'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
-				'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail', 'Comatose', 'Contrary', 'Fur Coat', 'Good as Gold', 'Gorilla Tactics', 'Huge Power',
-				'Ice Scales', 'Illusion', 'Imposter', 'Innards Out', 'Magic Bounce', 'Magnet Pull', 'Neutralizing Gas', 
-				'Parental Bond', 'Pure Power', 'Simple', 'Speed Boost', 'Triage', 'Unburden', 'Water Bubble', 'Wonder Guard','Archeops','Baxcalibur','Blacephalon',
-				'Dracovish','Dragapult','Dragonite','Enamorus-Base','Hoopa-Unbound','Kartana','Kingambit','Iron Hands','Iron Valiant','Regigigas','Slaking','Sneasler',
-				'Urshifu-Rapid-Strike','Walking Wake','Xurkitree','Zamazenta'
-			],
-			unbanlist: ['Zamazenta-Crowned'],
-		},
-		{
-			name: "[Gen 9] National Dex Mix and Mega",
-	
-			mod: 'mixandmega',
-			searchShow: false,
-			ruleset: ['Standard NatDex','Mega Rayquaza Clause',],
-			banlist: ['Calyrex-Shadow','Electrify', 'Pidgeotite',
-			],
-			unbanlist: ['Dragapult','Eternatus','Gholdengo','Kilowattrel','Kyogre','Sandy Shocks','Zapdos','Beedrillite','Blazikenite','Kangaskhanite',
-			'Mawilite','Medichamite','Rusted Sword',],
-			restricted: ['Arceus','Calyrex-Ice','Deoxys-Attack','Deoxys-Base','Deoxys-Speed','Dialga','Eternatus','Giratina','Groudon','Ho-Oh','Kyogre',
-			'Kyurem-Black','Kyurem-White','Lugia','Lunala','Marshadow','Melmetal','Mewtwo','Naganadel','Necrozma-Dawn-Wings','Necrozma-Dusk-Mane','Palkia',
-			'Pheromosa','Rayquaza','Regigigas','Reshiram','Urshifu','Xerneas','Yveltal','Zekrom','Power Construct','Beedrillite','Blazikenite','Kangaskhanite',
-			'Mawilite','Medichamite','Rusted Sword',
-	
-			],
-		},
-		{
-			name: "[Gen 9] National Dex Godly Gift",
-	
-			mod: 'gen9',
-			searchShow: false,
-			ruleset: ['Standard NatDex','Godly Gift Mod', 'Species Clause', 'OHKO Clause', 'Evasion Abilities Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 
-			'Overflow Stat Mod', 'Sleep Moves Clause', 'Terastal Clause', 'Mega Rayquaza Clause'],
-			banlist: ['Blissey', 'Calyrex-Shadow','Chansey','Deoxys-Attack','Koraidon','Miraidon'
-			],
-			restricted: ['Arceus','Blastoise-Mega','Blaziken-Mega','Calyrex-Ice','Chi-Yu','Darmanitan-Galar','Deoxys-Base','Deoxys-Defense','Deoxys-Speed','Dialga','Dialga-Origin','Dracovish','Espathra',
-			'Eternatus','Flutter Mane','Genesect','Gengar-Mega','Giratina','Giratina-Origin','Groudon','Groudon-Primal','Ho-Oh','Iron Bundle','Kangaskhan-Mega','Kingambit','Kyogre','Kyogre-Primal',
-			'Kyurem-Black','Kyurem-White','Lucario-Mega','Lugia','Lunala','Magearna','Marowak-Alola','Marshadow','Medicham-Mega','Mawile-Mega','Melmetal','Metagross-Mega',
-			'Mewtwo','Mewtwo-Mega-X','Mewtwo-Mega-Y','Naganadel','Necrozma-Dusk-Mane','Necrozma-Dawn-Wings','Palkia','Palkia-Origin','Pheromosa','Pikachu','Rayquaza','Reshiram',
-			'Sableye-Mega','Salamence-Mega','Shaymin-Sky','Smeargle','Solgaleo','Spectrier','Toxapex','Ursaluna','Ursaluna-Bloodmoon','Xerneas','Yveltal','Zacian','Zacian-Crowned',
-			'Zamazenta-Crowned','Zekrom','Power Construct',
-			],
-		},
-		{
-			name: "[Gen 9] National Dex NFE",
-	
-			mod: 'gen9',
-			searchShow: false,
-			ruleset: ['Standard NatDex', 'Not Fully Evolved', 'Terastal Clause'],
-			banlist: [
-				'Basculin-White-Striped', 'Bisharp', 'Chansey', 'Doublade', 'Duraludon','Gligar','Kadabra','Haunter', 'Magneton', 'Mr. Mime-Galar', 'Pikachu', 'Porygon2', 'Primeape', 'Qwilfish-Hisui', 'Scyther', 'Sneasel', 'Sneasel-Hisui', 'Ursaring'
-			],
-			unbanlist: ['Moody'],
-		},
-		{
-			name: "[Gen 9] National Dex Convergence",
-	
-			mod: 'gen9',
-			searchShow: false,
-			ruleset: ['Standard NatDex','Convergence Legality','!Obtainable Abilities','Sleep Moves Clause'],
-			banlist: [
-				'Articuno-Galar','Cosmog','Golisopod','Regigigas','Slaking','Smeargle','Tapu Lele','Walking Wake','Zamazenta','Comatose','Contrary',
-				'Huge Power','Imposter','Pure Power','Simple','Speed Boost','Unburden','Belly Drum','Electrify','Extreme Speed','Quiver Dance',
-				'Revival Blessing','Shell Smash','Shift Gear','Stored Power','Tail Glow','Transform','Damp Rock','Medichamite','Mawilite','Boomburst',
-				'Virizion','Kartana','Gardevoir-Mega','Enamorus','Ogerpon-Hearthflame'
-						],
-			unbanlist: ['Espathra'],
 	},
 	{
 		name: "[Gen 8] National Dex",
