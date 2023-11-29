@@ -2082,6 +2082,13 @@ export const Formats: FormatList = [
 		banlist: ['ND UU', 'ND RUBL', 'Heat Rock'],
 	},
 	{
+		name: "[Gen 9] National Dex NU",
+		mod: 'gen9',
+		searchShow: false,
+		ruleset: ['[Gen 9] National Dex RU'],
+		banlist: [ 'ND RU', 'Thundurus', 'Sharpedo-Mega','Conkeldurr','Staraptor','Manectric-Mega','Scolipede','Durant','Primarina','Nidoking','Arctozolt'],
+	},
+	{
 		name: "[Gen 9] National Dex PU",
 
 		mod: 'gen9',
