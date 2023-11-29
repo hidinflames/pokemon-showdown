@@ -2086,7 +2086,7 @@ export const Formats: FormatList = [
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['[Gen 9] National Dex RU'],
-		banlist: [ 'ND RU', 'Thundurus', 'Sharpedo-Mega','Conkeldurr','Staraptor','Manectric-Mega','Scolipede','Durant','Primarina','Nidoking','Arctozolt'],
+		banlist: [ 'ND RU', 'ND NUBL'],
 	},
 	{
 		name: "[Gen 9] National Dex PU",
