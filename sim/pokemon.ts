@@ -7,7 +7,6 @@
 
 import {State} from './state';
 import {toID} from './dex';
-import { Item } from './dex-items';
 
 /** A Pokemon's move slot. */
 interface MoveSlot {
@@ -44,9 +43,6 @@ export const RESTORATIVE_BERRIES = new Set([
 ] as ID[]);
 
 export class Pokemon {
-	removeitemState(arg0: string, arg1: Item, removeitemState: any, pokemon: Pokemon) {
-		throw new Error('Method not implemented.');
-	}
 	readonly side: Side;
 	readonly battle: Battle;
 
