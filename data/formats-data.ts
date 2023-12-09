@@ -1982,7 +1982,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	breloom: {
 		tier: "OU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "NUBL",
 	},
 	slakoth: {
 		tier: "LC",
@@ -3644,7 +3644,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	chandelure: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "NUBL",
 	},
 	axew: {
 		tier: "LC",
@@ -4431,7 +4431,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lycanrocdusk: {
 		tier: "RU",
 		doublesTier: "(DUU)",
-		natDexTier: "NU",
+		natDexTier: "NUBL",
 	},
 	wishiwashi: {
 		isNonstandard: "Past",
