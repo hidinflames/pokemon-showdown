@@ -2136,5 +2136,4 @@ export class Pokemon {
 		(this as any).battle = null!;
 		(this as any).side = null!;
 	}
-
 }

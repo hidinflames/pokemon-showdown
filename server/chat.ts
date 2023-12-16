@@ -2701,5 +2701,4 @@ if (!process.send) {
 	global.Config = require('./config-loader').Config;
 	// eslint-disable-next-line no-eval
 	Repl.start('chat-db', cmd => eval(cmd));
-
 }
