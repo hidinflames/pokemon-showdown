@@ -19980,7 +19980,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 120,
 		category: "Special",
 		name: "Tera Starstorm",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, noassist: 1, failcopycat: 1, failmimic: 1},
 		onModifyType(move, pokemon) {
