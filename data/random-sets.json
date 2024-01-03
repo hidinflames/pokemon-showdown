@@ -4,7 +4,7 @@
         "sets": [
             {
                 "role": "Setup Sweeper",
-                "movepool": ["Power Whip", "Sludge Bomb", "Sunny Day", "Weather Ball"],
+                "movepool": ["Power Whip", "Sunny Day", "Sludge Bomb", "Weather Ball"],
                 "teraTypes": ["Fire"]
             },
             {
