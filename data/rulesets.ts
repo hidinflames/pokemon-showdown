@@ -152,7 +152,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			if (species.natDexTier === 'Illegal') {
 				if (this.ruleTable.has(`+pokemon:${species.id}`)) return;
 				return [`${set.name || set.species} does not exist in the National Dex.`];
-			}
+			    }
 				if (!species.nfe) {
 					if (species.natDexTier)
 					return [set.species + " cannot evolve."];
