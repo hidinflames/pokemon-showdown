@@ -7,7 +7,7 @@ let battle;
 
 describe('Mix and Mega', function () {
 	beforeEach(function () {
-		battle = common.createBattle({formatid: 'gen9mixandmega'});({formatid: 'gen9nationaldexmixandmega'});
+		battle = common.createBattle({formatid: 'gen9mixandmega'});
 	});
 	afterEach(() => battle.destroy());
 
