@@ -231,6 +231,7 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	 * National Dex Tier. The Pokemon's location in the Smogon National Dex tier system.
 	 */
 	readonly natDexTier: TierTypes.Singles | TierTypes.Other;
+	ndnfe: any;
 
 	constructor(data: AnyObject) {
 		super(data);
