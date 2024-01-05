@@ -1498,7 +1498,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gligar: {
 		tier: "NU",
 		doublesTier: "NFE",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	gliscor: {
 		tier: "OU",
