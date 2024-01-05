@@ -3248,7 +3248,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	basculin: {
 		tier: "PU",
 		doublesTier: "(DUU)",
-		natDexTier: "NU",
+		natDexTier: "ZU",
 	},
 	basculinbluestriped: {
 		tier: "PU",
