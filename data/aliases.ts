@@ -32,6 +32,7 @@ export const Aliases: {[alias: string]: string} = {
 	gen8ndou: "[Gen 8] National Dex",
 	natdexubers: "[Gen 9] National Dex Ubers",
 	ndubers: "[Gen 9] National Dex Ubers",
+	nduubers: "[Gen 9] National Dex UUbers",
 	natdexuu: "[Gen 9] National Dex UU",
 	nduu: "[Gen 9] National Dex UU",
 	natdexru: "[Gen 9] National Dex RU",
