@@ -5005,7 +5005,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	toxtricity: {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	toxtricitygmax: {
 		isNonstandard: "Past",
