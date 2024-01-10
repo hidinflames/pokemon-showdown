@@ -295,7 +295,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	nidoqueen: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	nidoranm: {
 		isNonstandard: "Past",
@@ -1700,7 +1700,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	entei: {
 		tier: "RU",
 		doublesTier: "DUU",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	suicune: {
 		tier: "UU",
@@ -1915,7 +1915,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gallade: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	gallademega: {
 		isNonstandard: "Past",
@@ -4762,7 +4762,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	stakataka: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	blacephalon: {
 		isNonstandard: "Past",
@@ -5348,7 +5348,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lokix: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	rellor: {
 		tier: "LC",
@@ -5597,7 +5597,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	screamtail: {
 		tier: "RU",
 		doublesTier: "(DUU)",
-		natDexTier: "PUBL",
+		natDexTier: "PU",
 	},
 	fluttermane: {
 		tier: "Uber",
