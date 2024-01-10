@@ -498,7 +498,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	politoed: {
 		tier: "NU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	abra: {
 		isNonstandard: "Past",
@@ -746,7 +746,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	steelixmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	drowzee: {
 		tier: "LC",
@@ -896,7 +896,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tangrowth: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	kangaskhan: {
 		isNonstandard: "Past",
@@ -1159,7 +1159,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	aerodactyl: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	aerodactylmega: {
 		isNonstandard: "Past",
@@ -1695,7 +1695,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	raikou: {
 		tier: "RU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	entei: {
 		tier: "RU",
@@ -2282,7 +2282,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	milotic: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	castform: {
 		isNonstandard: "Past",
@@ -2753,7 +2753,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bronzong: {
 		tier: "PU",
 		doublesTier: "(DUU)",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	chatot: {
 		isNonstandard: "Past",
@@ -5005,7 +5005,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	toxtricity: {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "NU",
+		natDexTier: "PUBL",
 	},
 	toxtricitygmax: {
 		isNonstandard: "Past",
@@ -5120,7 +5120,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	indeedee: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "NU",
+		natDexTier: "PU",
 	},
 	indeedeef: {
 		tier: "(PU)",
