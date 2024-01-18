@@ -2724,7 +2724,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			const matchingSpecies = this.dex.species.all()
 				.filter(species => (
 					(!species.isNonstandard || this.ruleTable.has(`+pokemontag:${this.toID(species.isNonstandard)}`)) &&
-					(species.isNonstandard === 'Past' && !this.ruleTable.has('standardnatdex')) &&
+					species.isNonstandard === 'Past' && !this.ruleTable.has('standardnatdex') &&
 					species.types.every(type => curSpecies.types.includes(type)) &&
 					species.types.length === curSpecies.types.length && !this.ruleTable.isBannedSpecies(species)
 				));
@@ -2742,7 +2742,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			const matchingSpecies = this.dex.species.all()
 				.filter(s => (
 					(!s.isNonstandard || this.ruleTable.has(`+pokemontag:${this.toID(s.isNonstandard)}`)) &&
-					(s.isNonstandard === 'Past' && !this.ruleTable.has('standardnatdex')) &&
+					s.isNonstandard === 'Past' && !this.ruleTable.has('standardnatdex') &&
 					s.types.every(type => species.types.includes(type)) &&
 					s.types.length === species.types.length && !this.ruleTable.isBannedSpecies(s)
 				));
