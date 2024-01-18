@@ -1647,43 +1647,41 @@ export const Rulesets: {[k: string]: FormatData} = {
 				// BDSP can't import Pokemon from Home, so it shouldn't grant moves from archaic species types
 				const minObtainableSpeciesGen = this.dex.currentMod === 'gen8bdsp' || this.dex.gen === 9 ?
 					this.dex.gen : species.gen;
-				for (let i = this.dex.gen; i >= minObtainableSpeciesGen && i >= move.gen; i--) {
-					const dex = this.dex.forGen(i);
-					moveTypes.push(dex.moves.get(move.name).type);
-
-					const pokemon = dex.species.get(species.name);
-					if (pokemon.forme || pokemon.otherFormes) {
-						const baseSpecies = dex.species.get(pokemon.baseSpecies);
-						const originalForme = dex.species.get(pokemon.changesFrom || pokemon.name);
-						speciesTypes.push(...originalForme.types);
-						if (baseSpecies.otherFormes) {
-							for (const formeName of baseSpecies.otherFormes) {
-								if (baseSpecies.prevo) {
-									const prevo = dex.species.get(baseSpecies.prevo);
-									if (prevo.evos.includes(formeName)) continue;
-								}
-								const forme = dex.species.get(formeName);
-								if (forme.changesFrom === originalForme.name && !forme.battleOnly) {
-									speciesTypes.push(...forme.types);
+					for (let i = this.dex.gen; i >= minObtainableSpeciesGen && i >= move.gen; i--) {
+						const dex = this.dex.forGen(i);
+						moveTypes.push(dex.moves.get(move.name).type);
+						const pokemon = dex.species.get(species.name);
+						if (pokemon.forme || pokemon.otherFormes) {
+							const baseSpecies = dex.species.get(pokemon.baseSpecies);
+							const originalForme = dex.species.get(pokemon.changesFrom || pokemon.name);
+							speciesTypes.push(...originalForme.types);
+							if (baseSpecies.otherFormes) {
+								for (const formeName of baseSpecies.otherFormes) {
+									if (baseSpecies.prevo) {
+										const prevo = dex.species.get(baseSpecies.prevo);
+										if (prevo.evos.includes(formeName)) continue;
+									}
+									const forme = dex.species.get(formeName);
+									if (forme.changesFrom === originalForme.name && !forme.battleOnly) {
+										speciesTypes.push(...forme.types);
+									}
 								}
 							}
+						} else {
+							speciesTypes.push(...pokemon.types);
 						}
-					} else {
-						speciesTypes.push(...pokemon.types);
+						let prevo = pokemon.prevo;
+						while (prevo) {
+							const prevoSpecies = dex.species.get(prevo);
+							speciesTypes.push(...prevoSpecies.types);
+							prevo = prevoSpecies.prevo;
+						}
 					}
-
-					let prevo = pokemon.prevo;
-					while (prevo) {
-						const prevoSpecies = dex.species.get(prevo);
-						speciesTypes.push(...prevoSpecies.types);
-						prevo = prevoSpecies.prevo;
-					}
+					if (moveTypes.some(m => speciesTypes.includes(m))) return null;
 				}
-				if (moveTypes.some(m => speciesTypes.includes(m))) return null;
-			}
-			return this.checkCanLearn(move, species, setSources, set);
+				return this.checkCanLearn(move, species, setSources, set);
+			},
 		},
-	},
 	alphabetcupmovelegality: {
 		effectType: 'ValidatorRule',
 		name: 'Alphabet Cup Move Legality',
