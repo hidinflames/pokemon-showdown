@@ -1604,7 +1604,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mamoswine: {
 		tier: "RU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	corsola: {
 		isNonstandard: "Past",
@@ -4692,7 +4692,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	buzzwole: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	pheromosa: {
 		isNonstandard: "Past",
@@ -4767,7 +4767,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	blacephalon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "RU",
+		natDexTier: "RUBL",
 	},
 	zeraora: {
 		isNonstandard: "Past",
