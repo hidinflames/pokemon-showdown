@@ -1811,7 +1811,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	linoone: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "ZU",
+		natDexTier: "ZUBL",
 	},
 	linoonegalar: {
 		isNonstandard: "Past",
@@ -1905,7 +1905,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gardevoir: {
 		tier: "RU",
 		doublesTier: "DUU",
-		natDexTier: "ZU",
+		natDexTier: "ZUBL",
 	},
 	gardevoirmega: {
 		isNonstandard: "Past",
@@ -3787,7 +3787,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	meloetta: {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "ZU",
+		natDexTier: "ZUBL",
 	},
 	genesect: {
 		isNonstandard: "Past",
