@@ -896,7 +896,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tangrowth: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "RU",
 	},
 	kangaskhan: {
 		isNonstandard: "Past",
@@ -1159,7 +1159,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	aerodactyl: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "RU",
 	},
 	aerodactylmega: {
 		isNonstandard: "Past",
@@ -1695,7 +1695,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	raikou: {
 		tier: "RU",
 		doublesTier: "DUU",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	entei: {
 		tier: "RU",
@@ -1915,7 +1915,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gallade: {
 		tier: "UU",
 		doublesTier: "(DUU)",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	gallademega: {
 		isNonstandard: "Past",
@@ -3293,7 +3293,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	darmanitan: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "PUBL",
 	},
 	darmanitanzen: {
 		isNonstandard: "Past",
