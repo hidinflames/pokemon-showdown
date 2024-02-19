@@ -384,8 +384,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	gengarmega: {
-		tier: "Uber",
-		doublesTier: "DOU",
+		tier: "AG",
+		doublesTier: "DUber",
 	},
 	onix: {
 		tier: "LC",
