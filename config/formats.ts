@@ -2234,10 +2234,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-<<<<<<< HEAD
-=======
 		// searchShow: false,
->>>>>>> 798c6fd42f3250a668923066c465d7ffffac5959
 		ruleset: ['[Gen 9] National Dex UU'],
 		banlist: ['ND UU', 'ND RUBL', 'Slowbro-Base + Slowbronite', 'Heat Rock'],
 	},

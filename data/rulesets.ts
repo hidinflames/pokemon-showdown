@@ -197,7 +197,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 			}
 		},
 	},
-<<<<<<< HEAD
 	standardnatdexnfe: {
 		effectType: 'ValidatorRule',
 		name: 'Standard NatDex NFE',
@@ -321,9 +320,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 		},
 	},
 	draft: {
-=======
-	standarddraft: {
->>>>>>> 798c6fd42f3250a668923066c465d7ffffac5959
 		effectType: 'ValidatorRule',
 		name: 'Standard Draft',
 		desc: "The custom Draft League ruleset",
@@ -1696,12 +1692,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 				const speciesTypes: string[] = [];
 				const moveTypes: string[] = [];
 				// BDSP can't import Pokemon from Home, so it shouldn't grant moves from archaic species types
-<<<<<<< HEAD
 				const minObtainableSpeciesGen = this.dex.currentMod === 'gen8bdsp' || this.dex.gen === 9 && !this.ruleTable.has('standardnatdex') ?
-=======
-				const minObtainableSpeciesGen = this.dex.currentMod === 'gen8bdsp' ||
-					(this.dex.gen === 9 && !this.ruleTable.has('standardnatdex')) ?
->>>>>>> 798c6fd42f3250a668923066c465d7ffffac5959
 					this.dex.gen : species.gen;
 					for (let i = this.dex.gen; i >= minObtainableSpeciesGen && i >= move.gen; i--) {
 						const dex = this.dex.forGen(i);
