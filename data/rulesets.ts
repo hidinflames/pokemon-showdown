@@ -319,7 +319,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 			}
 		},
 	},
-	draft: {
+	standarddraft: {
 		effectType: 'ValidatorRule',
 		name: 'Standard Draft',
 		desc: "The custom Draft League ruleset",
