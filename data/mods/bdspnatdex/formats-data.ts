@@ -380,7 +380,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "NFE",
 	},
 	gengar: {
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	gengarmega: {
@@ -1598,7 +1598,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	latios: {
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	latiosmega: {
@@ -1642,7 +1642,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	deoxysdefense: {
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DOU",
 	},
 	deoxysspeed: {
@@ -1962,7 +1962,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	manaphy: {
-		tier: "Uber",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	darkrai: {
