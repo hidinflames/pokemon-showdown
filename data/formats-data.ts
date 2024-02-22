@@ -1547,7 +1547,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sneasel: {
 		tier: "PU",
 		doublesTier: "NFE",
-		natDexTier: "NFE",
+		natDexTier: "ZUBL",
 	},
 	sneaselhisui: {
 		tier: "NU",
@@ -2054,7 +2054,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	medicham: {
 		tier: "ZU",
 		doublesTier: "(DUU)",
-		natDexTier: "ZU",
+		natDexTier: "ZUBL",
 	},
 	medichammega: {
 		isNonstandard: "Past",
@@ -5693,7 +5693,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	armarouge: {
 		tier: "RU",
 		doublesTier: "DUU",
-		natDexTier: "ZU",
+		natDexTier: "ZUBL",
 	},
 	ceruledge: {
 		tier: "UUBL",
