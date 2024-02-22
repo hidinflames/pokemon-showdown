@@ -1887,7 +1887,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	swellow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "PU",
+		natDexTier: "ZU",
 	},
 	wingull: {
 		tier: "LC",
