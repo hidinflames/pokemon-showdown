@@ -1701,7 +1701,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	entei: {
 		tier: "RU",
 		doublesTier: "DOU",
-		natDexTier: "RU",
+		natDexTier: "PU",
 	},
 	suicune: {
 		tier: "NUBL",
