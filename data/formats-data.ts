@@ -2465,7 +2465,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	latias: {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	latiasmega: {
 		isNonstandard: "Past",
