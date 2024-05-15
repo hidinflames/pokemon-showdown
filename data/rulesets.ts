@@ -2970,9 +2970,6 @@ export const Rulesets: {[k: string]: FormatData} = {
 		name: 'Useless Items Clause',
 		// implemented in /mods/moderngen2/rulesets.ts
 	},
-<<<<<<< HEAD
-};
-=======
 	ferventimpersonationmod: {
 		effectType: 'Rule',
 		name: "Fervent Impersonation Mod",
@@ -3037,4 +3034,3 @@ export const Rulesets: {[k: string]: FormatData} = {
 		},
 	},
 };
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
