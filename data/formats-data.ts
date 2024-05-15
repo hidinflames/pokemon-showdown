@@ -852,15 +852,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	weezing: {
-<<<<<<< HEAD
-		tier: "PU",
-		doublesTier: "DUU",
-		natDexTier: "ZU",
-=======
 		tier: "ZU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
 	},
 	weezinggalar: {
 		tier: "UU",
@@ -1128,13 +1122,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	porygon2: {
-<<<<<<< HEAD
-		tier: "PU",
-		doublesTier: "NFE",
-=======
 		tier: "ZU",
 		doublesTier: "DUU",
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
 		natDexTier: "NFE",
 	},
 	porygonz: {
@@ -2681,11 +2670,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	floatzel: {
-<<<<<<< HEAD
-		tier: "NU",
-=======
 		tier: "ZU",
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
 		doublesTier: "(DUU)",
 		natDexTier: "NU",
 	},
@@ -3658,11 +3643,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	braviary: {
-<<<<<<< HEAD
-		tier: "PU",
-=======
 		tier: "ZU",
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
 		doublesTier: "(DUU)",
 		natDexTier: "ZU",
 	},
@@ -4985,15 +4966,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	cramorant: {
-<<<<<<< HEAD
-		tier: "PU",
-		doublesTier: "DUU",
-		natDexTier: "ZU",
-=======
 		tier: "ZU",
 		doublesTier: "(DUU)",
-		natDexTier: "RU",
->>>>>>> 13a5c1ca5216f5e5a27e730668344640a18c3ce1
+		natDexTier: "ZU",
 	},
 	arrokuda: {
 		tier: "LC",
