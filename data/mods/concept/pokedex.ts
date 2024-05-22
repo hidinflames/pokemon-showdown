@@ -3537,7 +3537,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		},
 		ledianhero: {
 			num: 166,
-			name: "Ledian",
+			name: "Ledian-Hero",
 			types: ["Bug", "Flying"],
 			baseStats: {hp: 55, atk: 145, def: 85, spa: 80, spd: 110, spe: 108},
 			abilities: {0: "Zero to Hero (Ledian)"},
