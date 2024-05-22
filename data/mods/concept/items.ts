@@ -7731,6 +7731,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		windyrock: {
 			name: "Windy Rock",
 			spritenum: 221,
+			shortDesc: "Extends duration of Windy Stream to 8 turns.",
 			fling: {
 				basePower: 10,
 			},
