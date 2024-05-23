@@ -1,6 +1,5 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
-	inherit: 'gen9nationaldex',
 	init() {
 		this.modData('Learnsets', 'venusaur').learnset.acidicblast = ['9L1'];
 		this.modData('Learnsets', 'venusaur').learnset.nutrientsip = ['9L1'];
