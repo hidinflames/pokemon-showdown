@@ -3869,7 +3869,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Poison",
-		shortDesc: "20% chance to flinch, poison, or paralyze target.",
 	},
 	dive: {
 		num: 291,
@@ -23113,7 +23112,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
-		shortDesc: "10% chance to poison. Applies Curse on foe.",
+		shortDesc: "10% chance to poison. Applies Ruinated on foe.",
 		name: "Ruinous Barrage",
 		pp: 10,
 		priority: 0,
@@ -23123,14 +23122,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			status: 'psn',
 		},
 		type: "Grass",
-		volatileStatus: 'curse',
+		volatileStatus: 'ruinated',
 		condition: {
 			onStart(pokemon, source) {
-				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+				this.add('-start', pokemon, 'Ruinated', '[of] ' + source);
 			},
 			onResidualOrder: 12,
 			onResidual(pokemon) {
-				this.damage(pokemon.baseMaxhp / 4);
+				this.damage(pokemon.baseMaxhp / 8);
 			},
 		},
 		target: "normal",
@@ -23140,7 +23139,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		shortDesc: "10% chance to freeze. Applies Curse on foe.",
+		shortDesc: "10% chance to freeze. Applies Ruinated on foe.",
 		name: "Ruinous Slice",
 		pp: 10,
 		priority: 0,
@@ -23150,14 +23149,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			status: 'frz',
 		},
 		type: "Ice",
-		volatileStatus: 'curse',
+		volatileStatus: 'ruinated',
 		condition: {
 			onStart(pokemon, source) {
-				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+				this.add('-start', pokemon, 'Ruinated', '[of] ' + source);
 			},
 			onResidualOrder: 12,
 			onResidual(pokemon) {
-				this.damage(pokemon.baseMaxhp / 4);
+				this.damage(pokemon.baseMaxhp / 8);
 			},
 		},
 		target: "normal",
@@ -23167,7 +23166,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		shortDesc: "10% chance to paralyze. Applies Curse on foe.",
+		shortDesc: "10% chance to paralyze. Applies Ruinated on foe.",
 		name: "Ruinous Strike",
 		pp: 10,
 		priority: 0,
@@ -23177,14 +23176,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			status: 'par',
 		},
 		type: "Ground",
-		volatileStatus: 'curse',
+		volatileStatus: 'ruinated',
 		condition: {
 			onStart(pokemon, source) {
-				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+				this.add('-start', pokemon, 'Ruinated', '[of] ' + source);
 			},
 			onResidualOrder: 12,
 			onResidual(pokemon) {
-				this.damage(pokemon.baseMaxhp / 4);
+				this.damage(pokemon.baseMaxhp / 8);
 			},
 		},
 		target: "normal",
@@ -23194,7 +23193,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
-		shortDesc: "10% chance to burn. Applies Curse on foe.",
+		shortDesc: "10% chance to burn. Applies Ruinated on foe.",
 		name: "Ruinous Flare",
 		pp: 10,
 		priority: 0,
@@ -23204,14 +23203,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			status: 'brn',
 		},
 		type: "Fire",
-		volatileStatus: 'curse',
+		volatileStatus: 'ruinated',
 		condition: {
 			onStart(pokemon, source) {
-				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+				this.add('-start', pokemon, 'Ruinated', '[of] ' + source);
 			},
 			onResidualOrder: 12,
 			onResidual(pokemon) {
-				this.damage(pokemon.baseMaxhp / 4);
+				this.damage(pokemon.baseMaxhp / 8);
 			},
 		},
 		target: "normal",
