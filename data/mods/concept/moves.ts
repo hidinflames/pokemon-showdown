@@ -22832,7 +22832,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		name: "Daunting Roar",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1, sound: 1},
 		onHit() {
 			this.add('-clearallboost');
 			for (const pokemon of this.getAllActive()) {
