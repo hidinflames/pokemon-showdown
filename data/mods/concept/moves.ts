@@ -1491,7 +1491,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Blazing Torque",
 		pp: 10,
 		priority: 0,
@@ -1616,7 +1616,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	bodypress: {
 		num: 776,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 80,
 		category: "Physical",
 		name: "Body Press",
 		pp: 10,
@@ -2159,7 +2159,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",
-		isNonstandard: "Unobtainable",
+		
 		name: "Burn Up",
 		pp: 5,
 		priority: 0,
@@ -2722,7 +2722,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Combat Torque",
 		pp: 10,
 		priority: 0,
@@ -3000,7 +3000,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Unobtainable",
+		
 		name: "Corrosive Gas",
 		pp: 40,
 		priority: 0,
@@ -3412,7 +3412,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 95,
 		basePower: 50,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Cut",
 		pp: 30,
 		priority: 0,
@@ -3849,6 +3849,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
+		shortDesc: "20% chance to flinch, poison, or paralyze target.",
 		name: "Dire Claw",
 		pp: 15,
 		priority: 0,
@@ -4842,7 +4843,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		
+		shortDesc: "For 5 turns, item(s) on the target's side have no effect.",
 		name: "Embargo",
 		pp: 10,
 		priority: 0,
@@ -8515,6 +8516,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 90,
 		basePower: 120,
 		category: "Physical",
+		shortDesc: "Has 33% recoil.",
 		name: "Head Smash",
 		pp: 5,
 		priority: 0,
@@ -9215,7 +9217,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Hold Back",
 		pp: 40,
 		priority: 0,
@@ -9234,7 +9236,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Unobtainable",
+		
 		name: "Hold Hands",
 		pp: 40,
 		priority: 0,
@@ -10651,6 +10653,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
+		shortDesc: "User and allies: healed 1/2 max HP; 2/3 in Rain.",
 		name: "Life Dew",
 		pp: 5,
 		priority: 0,
@@ -10931,6 +10934,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Lunar Blessing",
+		shortDesc: "User and allies: healed 1/2 max HP, status cured.",
 		pp: 5,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, metronome: 1},
@@ -11055,7 +11059,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Magical Torque",
 		pp: 10,
 		priority: 0,
@@ -12148,6 +12152,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 90,
 		basePower: 120,
 		category: "Special",
+		shortDesc: "Raises SpA by 1, hits turn 2. Sandstorm: no charge.",
 		name: "Meteor Beam",
 		pp: 10,
 		priority: 0,
@@ -13257,7 +13262,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Noxious Torque",
 		pp: 10,
 		priority: 0,
@@ -14230,7 +14235,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Unobtainable",
+		
 		name: "Power Shift",
 		pp: 10,
 		priority: 0,
@@ -15330,7 +15335,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 85,
 		basePower: 50,
 		category: "Special",
-		
+		shortDesc: "Traps and damages the target for 4-5 turns.",
 		name: "Razor Wind",
 		pp: 10,
 		priority: 0,
@@ -19168,15 +19173,18 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 95,
 		basePower: 100,
 		category: "Physical",
+		shortDesc: "User is confused if it misses.",
 		name: "Supercell Slam",
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
-		hasCrashDamage: true,
-		onMoveFail(target, source, move) {
-			this.damage(source.baseMaxhp / 2, source, source, this.dex.conditions.get('Supercell Slam'));
-		},
-		secondary: null,
+		secondary: {
+			onMoveFail(target, source, move) {
+				if (user?.missMove) {
+					user.addVolatile('confusion', source, move);
+				}
+				},
+			},
 		target: "normal",
 		type: "Electric",
 	},
@@ -21090,7 +21098,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 95,
 		basePower: 180,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "V-create",
 		pp: 5,
 		priority: 0,
@@ -21603,7 +21611,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
+		
 		name: "Wicked Torque",
 		pp: 10,
 		priority: 0,
@@ -22068,7 +22076,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 110,
 		accuracy: 85,
 		category: "Special",
-		shortDesc: "Steel-type neutrality. 30% chance to poison the target.",
+		shortDesc: "Steel-type neutrality. 30% chance to poison.",
 		name: "Acidic Blast",
 		pp: 5,
 		priority: 0,
@@ -22450,7 +22458,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
-		shortDesc: "10% poison. Physical if user's Atk > Special Attack. Hits adajacent foes.",
+		shortDesc: "10% poison. Physical if user's Atk > Special Attack.",
 		name: "Toxic Speech",
 		pp: 10,
 		priority: 0,
@@ -22476,7 +22484,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		name: "Piercing Spike",
 		pp: 15,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1, nonsky: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, nonsky: 1, metronome: 1},
 		secondary: {
 			chance: 20,
 			status: 'par',
@@ -22519,7 +22527,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		shortDesc: "Charges, then raises Atk, SpA, and Spe by 1 on turn 2. Once per battle.",
+		shortDesc: "Charges, then raises Atk, SpA, Spe by 1 on turn 2. Once per battle.",
 		name: "Metamorphisis",
 		pp: 5,
 		priority: 0,
@@ -22626,14 +22634,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		accuracy: 100,
 		basePower: 50,
 		category: "Special",
-		shortDesc: "Lowers foe's Atk and SpA by 2; confuses user.",
+		shortDesc: "Lowers foe's Atk and SpA by 1; confuses user.",
 		name: "Cry",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, bypasssub: 1, metronome: 1},
 		boosts: {
-			atk: -2,
-			spa: -2,
+			atk: -1,
+			spa: -1,
 		},
 		secondary: {	
 		chance: 100,
@@ -22871,6 +22879,393 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		type: "Flying",
 		zMove: {boost: {spe: 1}},
 		contestType: "Beautiful",
+	},
+	blastofage: {
+		num: 955,
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		shortDesc: "Type = user's primary type. Physical if user's Atk > Special Attack.",
+		name: "Blast of Age",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		onModifyType(move, pokemon) {
+			let type = pokemon.getTypes()[0];
+			if (type === "Bird") type = "???";
+			if (type === "Stellar") type = pokemon.getTypes(false, true)[0];
+			move.type = type;
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+	},
+	tentacleheal: {
+		num: 956,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		shortDesc: "User: heal 1/2 of max HP; raises Def and SpD by 1.",
+		name: "Tentacle Heal",
+		pp: 5,
+		priority: 0,
+		flags: {snatch: 1, heal: 1, metronome: 1},
+		self: {
+			boosts: {
+				def: 1,
+				spd: 1,
+			},
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "self",
+		type: "Rock",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Clever",
+	},
+		flexguard: {
+		num: 957,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		shortDesc: "Protects from moves; bounces back certain non-damaging moves.",
+		name: "Flex Guard",
+		pp: 10,
+		priority: 4,
+		flags: {noassist: 1, failcopycat: 1},
+		stallingMove: true,
+		volatileStatus: 'protect',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				return this.NOT_FAIL;
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute",
+	},
+	fancykick: {
+		num: 958,
+		accuracy: 95,
+		basePower: 100,
+		category: "Physical",
+		shortDesc: "User is confused if it misses.",
+		name: "Fancy Kick",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1},
+		secondary: {
+		onMoveFail(target, source, move) {
+			if (user?.missMove) {
+				user.addVolatile('confusion', source, move);
+			}
+			},
+		},
+		target: "normal",
+		type: "Bug",
+		contestType: "Cool",
+	},
+	generatorblast: {
+		num: 959,
+		accuracy: 100,
+		basePower: 150,
+		basePowerCallback(pokemon, target, move) {
+			const bp = move.basePower * pokemon.hp / pokemon.maxhp;
+			this.debug('BP: ' + bp);
+			return bp;
+		},
+		category: "Special",
+		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+		name: "Generator Blast",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Electric",
+	},
+	takeofftrample: {
+		num: 960,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		shortDesc: "30% chance to paralyze the target.",
+		name: "Takeoff Trample",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, nonsky: 1, metronome: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Flying",
+		contestType: "Tough",
+	},
+	preciseslash: {
+		num: 961,
+		accuracy: true,
+		basePower: 80,
+		category: "Physical",
+		shortDesc: "This move does not check accuracy.",
+		name: "Precise Slash",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
+	gluttonousmind: {
+		num: 962,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		shortDesc: "If foe has an item, consumes item and heals 1/2 max HP.",
+		name: "Gluttonous Mind",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1},
+		onHit(target, source) {
+			const item = target.takeItem(source);
+			if (item) {
+				this.add('-enditem', target, item.name, '[from] move: Gluttonous Mind', '[of] ' + source);
+			} else {
+				this.add('-fail', target, 'move: Gluttonous Mind');
+			}
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+	},
+	wyvernsting: {
+		num: 963,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		shortDesc: "No additonal effect.",
+		name: "Wyvern Sting",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, distance: 1, metronome: 1, contact: 1},
+		secondary: null,
+		target: "any",
+		type: "Dragon",
+	},
+	buildingslam: {
+		num: 964,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(pokemon, target) {
+			let power = Math.floor(25 * target.getStat('spe') / pokemon.getStat('spe')) + 1;
+			if (!isFinite(power)) power = 1;
+			if (power > 150) power = 150;
+			this.debug('BP: ' + power);
+			return power;
+		},
+		category: "Physical",
+		shortDesc: "More power the slower the user than the target.",
+		name: "Building Slam",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1, bullet: 1},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+	},
+	ruinousbarrage: {
+		num: 965,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		shortDesc: "10% chance to poison. Applies Curse on foe.",
+		name: "Ruinous Barrage",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'psn',
+		},
+		type: "Grass",
+		volatileStatus: 'curse',
+		condition: {
+			onStart(pokemon, source) {
+				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+			},
+			onResidualOrder: 12,
+			onResidual(pokemon) {
+				this.damage(pokemon.baseMaxhp / 4);
+			},
+		},
+		target: "normal",
+	},
+	ruinousslice: {
+		num: 966,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		shortDesc: "10% chance to freeze. Applies Curse on foe.",
+		name: "Ruinous Slice",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		type: "Ice",
+		volatileStatus: 'curse',
+		condition: {
+			onStart(pokemon, source) {
+				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+			},
+			onResidualOrder: 12,
+			onResidual(pokemon) {
+				this.damage(pokemon.baseMaxhp / 4);
+			},
+		},
+		target: "normal",
+	},
+	ruinousstrike: {
+		num: 965,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		shortDesc: "10% chance to paralyze. Applies Curse on foe.",
+		name: "Ruinous Strike",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'par',
+		},
+		type: "Ground",
+		volatileStatus: 'curse',
+		condition: {
+			onStart(pokemon, source) {
+				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+			},
+			onResidualOrder: 12,
+			onResidual(pokemon) {
+				this.damage(pokemon.baseMaxhp / 4);
+			},
+		},
+		target: "normal",
+	},
+	ruinousflare: {
+		num: 965,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		shortDesc: "10% chance to burn. Applies Curse on foe.",
+		name: "Ruinous Flare",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		type: "Fire",
+		volatileStatus: 'curse',
+		condition: {
+			onStart(pokemon, source) {
+				this.add('-start', pokemon, 'Curse', '[of] ' + source);
+			},
+			onResidualOrder: 12,
+			onResidual(pokemon) {
+				this.damage(pokemon.baseMaxhp / 4);
+			},
+		},
+		target: "normal",
+	},
+	gruelingpunch: {
+		num: 966,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		shortDesc: "30% to badly poison the target.",
+		name: "Grueling Punch",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 30,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Fighting",
+	},
+	taintingcontrol: {
+		num: 967,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		shortDesc: "30% to badly poison the target.",
+		name: "Tainting Control",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 30,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+	befoulcharm: {
+		num: 968,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		shortDesc: "30% to badly poison the target.",
+		name: "Befoul Charm",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 30,
+			status: 'tox',
+		},
+		target: "normal",
+		type: "Fairy",
 	},
 };
 
