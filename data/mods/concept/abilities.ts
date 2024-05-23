@@ -5655,6 +5655,17 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		num: 278,
 		shortDesc: "Changes the forme of Ledian once switched out."
 	},
+	ownspirit: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk) {
+			return this.chainModify(2);
+		},
+		flags: {},
+		name: "Own Spirit",
+		shortDesc: "If itemless, Attack stat is doubled.",
+		rating: 5,
+		num: 279,
+	},
 
 	// CAP
 	mountaineer: {
