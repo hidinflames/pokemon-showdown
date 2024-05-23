@@ -17,11 +17,11 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'charizard').learnset.dauntingroar = ['9L1'];
 		this.modData('Learnsets', 'charizard').learnset.streamsummon = ['9L1'];
 		this.modData('Learnsets', 'charizard').learnset.taunt = ['9L1'];
-		this.modData('Learnsets', 'blastoise').learnset.chillingsmack = ['7L1'];
-		this.modData('Learnsets', 'blastoise').learnset.airbullet = ['7L1'];
-		this.modData('Learnsets', 'blastoise').learnset.cry = ['7L1'];
-		this.modData('Learnsets', 'blastoise').learnset.dauntingroar = ['7L1'];
-		this.modData('Learnsets', 'blastoise').learnset.taunt = ['7L1'];
-		
+		this.modData('Learnsets', 'blastoise').learnset.chillingsmack = ['9L1'];
+		this.modData('Learnsets', 'blastoise').learnset.airbullet = ['9L1'];
+		this.modData('Learnsets', 'blastoise').learnset.cry = ['9L1'];
+		this.modData('Learnsets', 'blastoise').learnset.dauntingroar = ['9L1'];
+		this.modData('Learnsets', 'blastoise').learnset.taunt = ['9L1'];
+
 	},
 };
